@@ -6,6 +6,29 @@ Copyright(c) 2017 Intel Corporation
 NGIC Installation Guide
 =======================
 
+<!-- toc -->
+
+- [2.1 Configuration files](#21-configuration-files)
+- [2.2 CP Configuration](#22-cp-configuration)
+- [2.3 DP Configuration :](#23-dp-configuration-)
+- [2.4 Interface Configuration](#24-interface-configuration)
+  * [2.4.1 Components](#241-components)
+  * [2.4.2 Interfaces](#242-interfaces)
+  * [2.4.3 Co-located Configuration](#243-co-located-configuration)
+  * [2.4.4 FPC Port Parameters](#244-fpc-port-parameters)
+  * [2.4.6 NGIC Port Parameters](#246-ngic-port-parameters)
+- [2.5 Simulated CP config (Optional):](#25-simulated-cp-config-optional)
+    + [Dependencies](#dependencies)
+    + [Environment variables](#environment-variables)
+    + [Initial Compilation](#initial-compilation)
+- [3.1 Using install.sh:](#31-using-installsh)
+- [3.2 Manual build:](#32-manual-build)
+- [3.3 Setup traffic generator for dataplane traffic:](#33-setup-traffic-generator-for-dataplane-traffic)
+- [3.4 Running CP and DP](#34-running-cp-and-dp)
+- [3.5 Standalone Virtualization:](#35-standalone-virtualization)
+
+<!-- tocstop -->
+
 1. System Topology
 ------------------
 ```text
